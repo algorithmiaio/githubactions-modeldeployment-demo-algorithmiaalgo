@@ -1,9 +1,9 @@
 {
-    "model_filepath": "./model.pkl",
-    "model_origin_commit_SHA": "COMMIT SHA OF THE WORKFLOW TRIGGER EVENT",
-    "model_origin_commit_msg": "COMMIT MSG OF THE WORKFLOW TRIGGER EVENT",
-    "model_origin_repo": "CURRENT GIT REPO OF THIS PROJECT",
-    "model_origin_ref": "BRANCH OF THE WORKFLOW TRIGGER EVENT",
-    "model_uploaded_utc": "2020-09-16 17:10:58.454731",
-    "model_md5_hash": "MD5 HASH OF MODEL FILE"
+    "model_filepath": "asli/xgboost_automated/model_695b3c6647e29546c73bf7a9becf0211cf237014.pkl",
+    "model_origin_commit_SHA": "695b3c6647e29546c73bf7a9becf0211cf237014",
+    "model_origin_commit_msg": "Renamed model training notebook",
+    "model_origin_repo": "aslisabanci/demo_autodeploy_algo_on_algorithmia",
+    "model_uploaded_utc": "2020-09-30 02:47:25.348559",
+    "model_md5_hash": "70367caa502a62e043b80cb33f017446",
+    "model_origin_ref": "refs/heads/master"
 }

@@ -21,6 +21,7 @@ jobs:
           algorithmia_api_key: ${{ secrets.ALGORITHMIA_API_KEY }}
           algorithmia_username: ${{ secrets.ALGORITHMIA_USERNAME }}
           algorithmia_email: ${{ secrets.ALGORITHMIA_EMAIL }}
+          algorithmia_algoname:  xgboost_automated
           algorithmia_password: ${{ secrets.ALGORITHMIA_PASSWORD }}
-          algorithmia_algoname:  YOUR_ALGORITHM_NAME
+          git_host: git.algorithmia.com
         
