@@ -1,6 +1,6 @@
 # Automated Model and Algorithm Deployment from Github to Algorithmia
 
-This example repository uses an automated workflow via our Algorithmia Github Action, for continuous deployment of an XGBoost model and its inference script that runs as [an algorithm at Algorithmia](https://algorithmia.com/algorithms/asli/xgboost_automated). It's based off of our [Github Actions template ML repository](https://github.com/algorithmiaio/githubactions-modeldeployment-template/) which contains the necessary components of this integration as a starter kit. 
+This example repository uses an automated workflow via our [Algorithmia Github Action](https://github.com/algorithmiaio/algorithmia-modeldeployment-action), for continuous deployment of an XGBoost model and its inference script that runs as [an algorithm at Algorithmia](https://algorithmia.com/algorithms/asli/xgboost_automated). It's based off of our [Github Actions template ML repository](https://github.com/algorithmiaio/githubactions-modeldeployment-template/) which contains the necessary components of this integration as a starter kit. 
 
 After creating an algorithm on Algorithmia as the scalable inference endpoint for your ML model, you can incorporate this automated deployment workflow in your own ML repository, if:
 
