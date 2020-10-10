@@ -6,8 +6,9 @@ After creating an algorithm on Algorithmia as the scalable inference endpoint fo
 
 - Your algorithm's repository host is Algorithmia. Check out [this demo repo for an algorithm with Github as the repository host](https://github.com/algorithmiaio/githubactions-modeldeployment-demo-githubalgo.git)
 - And you are either 
-  - using a Jupyter notebook to train and evaluate your ML model and to create your inference script & dependencies
+  - using a Jupyter notebook to train and evaluate your ML model
   - checking your saved model file into your repository
+- Have your inference (Algorithmia algorithm) script & dependencies in your ML repo
 
 This workflow helps you deploy your model to Algorithmia and update your inference API to use the new model, whenever you do a Git push to your `master` branch. You can of course configure your own triggering event depending on your organization's deployment workflow.
 
