@@ -1,6 +1,7 @@
 import Algorithmia
 import json
 import os.path
+from pathlib import Path
 import joblib
 import xgboost
 import pandas as pd
@@ -25,7 +26,7 @@ def load_model_manifest(rel_path="model_manifest.json"):
     }
     """
     manifest = []
-    manifest_path = "{}/{}".format(os.getcwd(), (rel_path))
+    manifest_path = "{}/{}".format(Path(__file__).parents[1], rel_path)
     if os.path.exists(manifest_path):
         with open(manifest_path) as json_file:
             manifest = json.load(json_file)
