@@ -1,0 +1,8 @@
+algorithmia>=1.0.0,<2.0
+numpy
+joblib
+pandas
+scikit-learn
+nltk
+cmake
+xgboost
