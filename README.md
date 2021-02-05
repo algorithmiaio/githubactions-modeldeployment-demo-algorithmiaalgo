@@ -10,7 +10,7 @@ After creating an algorithm on Algorithmia as the scalable inference endpoint fo
   - checking your saved model file into your repository
 - Have your inference (Algorithmia algorithm) script & dependencies in your ML repo
 
-This workflow helps you deploy your model to Algorithmia and update your inference API to use the new model, whenever you do a Git push to your `master` branch. You can of course configure your own triggering event depending on your organization's deployment workflow.
+This workflow helps you deploy your model to Algorithmia and update your inference API to use the new model, whenever you do a Git push to your `main` branch. You can of course configure your own triggering event depending on your organization's deployment workflow.
 
 Depending on your model development preference:
   - If you're developing your ML model on a Jupyter notebook, you can configure the workflow with the notebook path to execute. In this case, the workflow will run the notebook on the CI worker machine's from-scratch environment. 
