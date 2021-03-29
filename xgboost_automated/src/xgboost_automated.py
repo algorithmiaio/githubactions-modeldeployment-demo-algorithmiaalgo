@@ -8,7 +8,7 @@ import pandas as pd
 import hashlib
 
 
-# Test comment here 20:22
+# Test comment for Zhilei
 client = Algorithmia.client()
 
 
